@@ -8,7 +8,7 @@
           :id="slide.id"
           class="carousel-item relative w-full"
         >
-          <div class="w-full border h-full rounded-lg p-10">
+          <div class="w-full  h-full rounded-lg p-10">
             <div class="flex flex-col h-full justify-between">
               <h1 class="text-2xl font-semibold mb-8">
                 {{ slide.content }}

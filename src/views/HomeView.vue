@@ -32,7 +32,7 @@ import CarrouselComponent from '@/components/CarrouselComponent.vue'
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident.
         </p>
-        <ButtonComponent />
+        <ButtonComponent :src="'/blog'" />
       </div>
     </section>
     <section class="h-full w-full p-20">
@@ -54,7 +54,7 @@ import CarrouselComponent from '@/components/CarrouselComponent.vue'
               cupidatat non proident.
             </p>
 
-            <ButtonComponent />
+            <ButtonComponent class="w-fit" :src="'/blog'" />
           </div>
         </div>
         <div class="col-span-1 box">

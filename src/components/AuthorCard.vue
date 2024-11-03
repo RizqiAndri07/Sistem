@@ -1,6 +1,7 @@
 <template>
-  <router-link to="/author"
-    class="border rounded flex flex-col justify-center  items-center p-10 w-[300px] h-[350px] bg-x-light-grey hover:bg-x-light-yellow"
+  <router-link
+    to="/author"
+    class="border rounded flex flex-col justify-center items-center p-10 w-[300px] h-[350px] bg-x-light-grey hover:bg-x-light-yellow"
   >
     <img
       :src="src"
@@ -11,7 +12,7 @@
       {{ name }}
     </h1>
     <span class="body2 text-gray-600 mb-3">{{ deskripsi }}</span>
-    <SocialMedia />
+    <SocialMedia @click.stop />
   </router-link>
 </template>
 

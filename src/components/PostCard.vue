@@ -49,7 +49,7 @@ export default {
     size: {
       type: String,
       required: true,
-      default: '550',
+      default: '600',
     },
   },
 }

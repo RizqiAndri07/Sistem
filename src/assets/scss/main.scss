@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Sen;
+  src: url('../fonts/sen-variable-fonts.ttf');
+}
+@font-face {
+  font-family: Inter;
+  src: url('../fonts/inter-variable-font.ttf');
+}
+
+.display {
+  @apply text-[56px] font-bold leading-[64px] tracking-[-2px];
+}
+
+.heading1 {
+  @apply font-bold text-5xl leading-[64px] tracking-[-2px];
+}
+
+.heading2 {
+  @apply font-bold text-4xl leading-[48px] tracking-[-2px];
+}
+
+.heading3 {
+  @apply font-bold text-3xl leading-10 tracking-[-1];
+}
+
+.heading4 {
+  @apply font-bold text-2xl leading-8;
+}
+
+.heading5 {
+  @apply font-bold text-xl leading-8;
+}
+
+.heading6 {
+  @apply font-bold text-base leading-6;
+}
+
+.body1 {
+  @apply font-inter text-base leading-7;
+}
+
+.body2 {
+  @apply font-inter leading-5 text-sm;
+}
+
+.labels {
+  @apply font-medium font-inter;
+}
+
+.cap1 {
+  @apply font-semibold font-inter tracking-[3px] leading-5;
+}
+
+.cap3 {
+  @apply font-inter font-semibold leading-5 tracking-[3px] text-base;
+}
+.buttons {
+  @apply px-6 py-2 border-2 border-black rounded-full grow font-bold text-sm hover:bg-x-blue hover:text-white  ; 
+}

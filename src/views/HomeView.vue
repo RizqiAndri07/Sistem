@@ -138,7 +138,7 @@ import CarrouselComponent from '@/components/CarrouselComponent.vue'
         <AuthorCard :src="photo4" name="Lesly Alexander" />
       </div>
       <div class="flex justify-between items-center my-10">
-        <img src="@/assets/images/company/Featured In.svg" alt="" />
+        <img src="@/assets/images/company/Featuredin.svg" alt="" />
         <img src="@/assets/images/company/Logo 1.svg" alt="" />
         <img src="@/assets/images/company/Logo 2.svg" alt="" />
         <img src="@/assets/images/company/Logo 3.svg" alt="" />

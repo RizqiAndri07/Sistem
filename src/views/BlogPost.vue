@@ -11,7 +11,7 @@ import JoinComponent from '@/components/JoinComponent.vue'
     <div class="profil flex items-center gap-x-3">
       <div class="box">
         <img
-          src="@/assets/images/author/image.svg"
+          src="@/assets/images/author/Image.svg"
           alt=""
           class="rounded-full w-20 object-cover"
         />
